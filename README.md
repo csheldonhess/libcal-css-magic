@@ -4,7 +4,7 @@ libcal-css-magic
 I took LibCal's (ugly, but effective) tables and made them look the way I want. Here's a photo of the display, looking the way I wanted it to look, only with test data:
 <img src="https://github.com/webkunoichi/libcal-css-magic/blob/master/display.png?raw=true" />
 
-Here's what the original LibCal tables look like:
+Here's what the original LibCal tables look like -- as you can see, they are very tall and very not-transparent:
 
 <img src="https://github.com/webkunoichi/libcal-css-magic/blob/master/unfixed-libcal.png?raw=true" />
 
