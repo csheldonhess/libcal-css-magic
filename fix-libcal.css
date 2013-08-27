@@ -1,0 +1,107 @@
+a, a:link, a:visited, a:active { 
+	text-decoration:none; 
+	color: #FFF;
+} 
+a:hover { 
+	text-decoration:underline; 
+}
+
+/* Events */
+table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td {
+	line-height: 3px; 
+	font-size: 18px; 
+	width: 350px; 
+	color: #FFF;
+}
+.tevent {
+	width: 100%; 
+	border: none; 
+	border-bottom: 1px dotted #ccc; 
+	font: normal 12px Arial, Helvetica, sans-serif; 
+	background:transparent; 
+	display:block; 
+	margin-top:0px; 
+	margin-bottom:8px; 
+	max-height: 85px; 
+	width:500px;
+}
+
+/* HERE IS THE BEST THING! Ellipses! Yessss */
+
+tr.ttit td {font-size: 24px; 
+	line-height:8px; 
+	max-width: 500px; 
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+	white-space: nowrap;
+}
+
+/* Getting rid of the stupid table colors */
+
+.tevent tr:nth-child(even){ 
+	background:transparent;
+}
+.tevent tr:nth-child(odd){ 
+	background:transparent;
+}
+
+
+tr.tdat td {
+	line-height:6px;
+}
+tr.tdat td {
+	position:relative; 
+	top:2px;
+}
+
+/* Trying to make the two rows display side-by-side */
+tr.ttim td {
+	display: inline; 
+	position:relative; 
+	top:-13px; 
+	left:250px;
+}
+tr.tloc td {
+	position:relative; 
+	top:-10px; 
+	line-height:1px; 
+	vertical-align: top;
+}
+
+/* Killing off the Category and Presenter rows, because they are unnecessary (for this) and just take up space (in this context) */
+tr.tcat td {
+	display:none;
+}
+tr.tpre td {
+	display:none;
+}
+/* oops, and also Description! */
+tr.tdes td {
+	display:none;
+}
+
+#th3 {
+	display:none;
+}
+
+/* Hiding titles, for the same reasons as Category and Presenter. */
+.ttitles { 
+	display:none; 
+}
+tr.ttim td.ttitles {
+	display:none;
+}
+
+/* I left this in from Springshare's CSS file but didn't change it */
+.lc_outerbox {background-color:transparent; 
+	padding:7px; margin-bottom:17px; }
+.lc_innerbox {background-color:transparent; padding:5px; margin:0px; font: normal 12px Arial, Helvetica, sans-serif; }
+#lc_profile_head { text-align: center; margin-bottom: 10px; }
+h2.lc_profilename { font-size: inherit; font-family: inherit; font-weight: bold;}
+.lc_profilebox h3 { font-size: 12px; }
+#lc_pro_sch{ margin: 0px auto; width: 250px; height: 32px; background: url('http://lcimages.s3.amazonaws.com/LC-SchedWMe.png') no-repeat; cursor: pointer; }
+.lc_img-shadow { float:left; background: url('http://lgimages.s3.amazonaws.com/photo_shadow.gif') no-repeat bottom right; margin: 10px 0 0 5px !important; }
+.lc_img-shadow img { display: block; position: relative; background-color: #fff; border: 1px solid #a9a9a9; margin: -6px 6px 6px -6px; padding: 4px; }
+.lc_event { border-bottom: 1px dotted #ccc; padding: 0; margin: 0; }
+.lc_event li { list-style-type: none; padding: 0; margin: 0;}
+.lc_event ul { padding: 3px; margin: 3px;}
